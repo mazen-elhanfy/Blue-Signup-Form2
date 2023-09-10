@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    width: 350px;
+    height: 500px;
+    background-color: dodgerblue;
+    margin: 100px auto;
+}
+.container{
+    width: 90%;
+    height: 90%;
+    transform: translate(5%, 5%);
+    -webkit-transform: translate(5%, 5%);
+    -moz-transform: translate(5%, 5%);
+    -ms-transform: translate(5%, 5%);
+    -o-transform: translate(5%, 5%);
+    background-color: #fff;
+    position: relative;
+}
+.container h2{
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translatex(-50%);
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+    text-transform: capitalize;
+}
+.container .one{
+    width: 90%;
+        height: 10%;
+        border: 0px;
+        border-bottom: 1px solid #777;
+        color: #777;
+        padding-left: 30px;
+        position: absolute;
+        left: 5%;
+        top: 15%;
+    }
+.fa-user{
+    position: absolute;
+        left: 8%;
+        top: 18%;
+        color: #777;
+}
+.container .two{
+    width: 90%;
+        height: 10%;
+        border: 0px;
+        border-bottom: 1px solid #777;
+        color: #777;
+        padding-left: 30px;
+        position: absolute;
+        left: 5%;
+        top: 25%;
+    }
+.fa-envelope-open{
+    position: absolute;
+        left: 8%;
+        top: 28%;
+        color: #777;
+}
+.container .three{
+    width: 90%;
+        height: 10%;
+        border: 0px;
+        border-bottom: 1px solid #777;
+        color: #777;
+        padding-left: 30px;
+        position: absolute;
+        left: 5%;
+        top: 35%;
+    }
+.fa-lock{
+    position: absolute;
+        left: 8%;
+        top: 38%;
+        color: #777;
+}
+.container .four{
+    width: 90%;
+        height: 10%;
+        border: 0px;
+        border-bottom: 1px solid #777;
+        color: #777;
+        padding-left: 30px;
+        position: absolute;
+        left: 5%;
+        top: 45%;
+    }
+#five{
+    position: absolute;
+        left: 8%;
+        top: 48%;
+        color: #777;
+}
+input[value="LOGIN"]{
+        width: 80%;
+            height: 7%;
+            background-color: dodgerblue;
+            position: absolute;
+            left: 10%;
+            top: 60%;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 0;
+            border-radius: 3px;
+}
+.five{
+position: absolute;
+    left: 25%;
+    top: 69%;
+    color: #777;
+}
+.six{
+    color: dodgerblue;
+        position: absolute;
+        left: 58%;
+        top: 69%;
+        font-weight: 400;
+}
+.seven{
+    width: 80%;
+        border: 1px dashed #aaaaaa;
+        position: absolute;
+        left: 10%;
+        top: 76%;
+}
+.eight{
+    color: #777;
+        text-transform: capitalize;
+        position: absolute;
+        left: 50%;
+        top: 80%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        font-weight: bold;
+        font-size: 19px;
+}
+.nine{
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    left: 25%;
+    top: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-facebook{
+    color:#4967aa;
+    font-size: 25px;
+}
+.fa-twitter{
+    color: #1fa0f3;
+    font-size: 25px;
+}
+.fa-google-plus{
+    color: #d84b41;
+    font-size: 25px;
+}
